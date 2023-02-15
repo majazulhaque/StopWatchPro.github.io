@@ -1,0 +1,68 @@
+body{
+    background-color: rgb(250, 246, 246);
+    font-family:'Times New Roman', Times, serif
+    margin: 0;
+    padding: 0;
+}
+/* Container Card */
+#container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    width: 50vw;
+    height: 50vh;
+    background-color: rgb(47, 47, 49);
+    margin-top: 15vh;
+    border-radius: 4px;
+    box-shadow: 8.0px 12.0px 12.0px rgb(47, 47, 49);
+    /* box-shadow: 10px 10px 25px 10px rgb(17, 16, 16); */
+}
+#header{
+    padding: 1.5rem 1rem 2rem 1rem;
+    height: 1rem;
+    color: rgb(235, 224, 224);
+}
+#header span{
+    font-size: 3.5rem;
+}
+/* Text Section */
+#text_div{
+    display: flex;
+    flex-direction: row;
+    width: 25vw;
+    height: 20vh;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 3rem;
+    
+}
+#text_div p{
+    color: rgb(235, 224, 224);
+    letter-spacing: 0.2rem;
+    font-size: 3.8rem;
+    font-weight: bold;
+    align-self: center;
+
+}
+
+/* Button Section */
+#button_div{
+
+}
+#button_div button{
+    /* background-color: rgb(70, 66, 66); */
+    box-shadow: 1.0px 2.0px 2.0px rgb(45, 42, 42);
+    background-image: linear-gradient(rgb(80, 77, 77),rgb(33, 31, 31));
+    border: none;
+    border-radius: 5px;
+    color: rgb(235, 224, 224);
+    font-size: 1.3rem;
+    font-weight: bold;
+    padding: 0.8rem 1.6rem;
+    margin: 0rem 1rem;
+}
+
+#button_div button:hover{
+    background-image: linear-gradient(rgb(67, 63, 63),rgb(33, 31, 31));
+}

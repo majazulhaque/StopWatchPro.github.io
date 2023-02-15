@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>StopWatch</title>
+    <!--Link css file-->
+    <link rel="stylesheet" href="/css/index.css" />
+  </head>
+  <body>
+    <div id="container">
+      <!--Adding the title StopWatch-->
+      <!-- <h1 id="header">StopWatch</h1> -->
+      <div id="header">
+        <span style="color: #ff0000; font-size:3rem">S</span>
+        <span style="color: #66cc66; font-size:3rem">t</span>
+        <span style="color: #ff9966; font-size:3rem">o</span>
+        <span style="color: #f69797; font-size:3rem">p</span>
+        <span style="color: #7dd609; font-size:3rem">W</span>
+        <span style="color: #ff0066; font-size:3rem">a</span>
+        <span style="color: #078877; font-size:3rem">t</span>
+        <span style="color: #677e08; font-size:3rem">c</span>
+        <span style="color: #e806a0; font-size:3rem">h</span>
+      </div>
+      <div id="text_div">
+        <p id="minute">00</p>
+        <p>:</p>
+        <p id="second">00</p>
+      </div>
+      <!-- Add button to hadle the function Start,Stop & Reset-->
+      <div id="button_div">
+        <button id="start_btn" onclick="startTimer()">Start</button>
+        <button id="stop_btn" onclick="stopTimer()">Stop</button>
+        <button id="reset_btn" onclick="resetTimer()">Reset</button>
+      </div>
+    </div>
+    <!--Adding js file to manipulate html and add functionality-->
+    <script src="/js/index.js"></script>
+  </body>
+</html>
