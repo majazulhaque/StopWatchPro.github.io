@@ -17,7 +17,6 @@ body{
     margin-top: 15vh;
     border-radius: 4px;
     box-shadow: 8.0px 12.0px 12.0px rgb(47, 47, 49);
-    /* box-shadow: 10px 10px 25px 10px rgb(17, 16, 16); */
 }
 #header{
     display: flex;
@@ -65,7 +64,6 @@ body{
 
 /* Button Section */
 #button_div button{
-    /* background-color: rgb(70, 66, 66); */
     box-shadow: 1.0px 2.0px 2.0px rgb(45, 42, 42);
     background-image: linear-gradient(rgb(80, 77, 77),rgb(33, 31, 31));
     border: none;
@@ -81,7 +79,7 @@ body{
     background-image: linear-gradient(rgb(67, 63, 63),rgb(33, 31, 31));
 }
 
-
+/* Adding media query for responsiveness*/
 
 @media only screen and (max-width: 850px){
     #container_div{
